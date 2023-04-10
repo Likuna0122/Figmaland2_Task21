@@ -1,0 +1,148 @@
+*{box-sizing: border-box;}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color:  #181818;
+}
+
+@font-face{
+    font-family: Graphik;
+    src: url(GraphikRegular.otf);
+}
+
+.box1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 199px;
+}
+
+.header{
+    color:white;
+    font-family: Graphik;
+    font-style: normal;
+    font-size: 52px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+
+.p1 {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Graphik;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.box2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 35px;
+}
+
+.box3 {
+    background-color: #fff;
+    width: 410px;
+    height: 510px;
+    border-radius: 10px;
+}
+
+.box5 {
+    background-color: #fff;
+    width: 410px;
+    height: 510px;
+    border-radius: 10px;
+}
+
+h6 {
+    text-align: center;
+    font-family: Graphik;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    font-style: normal;
+    margin-right: 110px;
+}
+
+.p2 {
+    font-family: Graphik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:  #5C5C5C;;
+    margin-left: 40.5px;
+    text-align:center;
+    margin-right: 135px;
+}
+
+.button1 {
+    font-family: Graphik;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: #4452FE;;
+    width: 115px;
+    height: 40px;
+    letter-spacing: 0.2px;
+    color: white;
+    border: none;
+}
+
+.macbook{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+h5 {
+    text-align: center;
+    font-family: Graphik;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    font-style: normal;
+    margin-right: 110px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.p3 {
+    font-family: Graphik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:  #5C5C5C;;
+    margin-left: 40.5px;
+    text-align:center;
+    margin-right: 135px;
+}
+
+.button2 {
+    font-family: Graphik;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: #4452FE;;
+    width: 115px;
+    height: 40px;
+    letter-spacing: 0.2px;
+    color: white;
+    border: none;
+}
+
+.screen{
+    width: 360px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
